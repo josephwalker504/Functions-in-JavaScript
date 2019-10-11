@@ -13,4 +13,8 @@ for (let chickenMonkeyGame = 1; chickenMonkeyGame <= 100; chickenMonkeyGame++){
     } else if (chickenMonkeyGame % 15 === 0) {
         console.log("ChickenMonkey")
     }
+}/*   TAKE A NUMBER PRACTICE  */
+
+const takeNumber = function () {
+    
 }
