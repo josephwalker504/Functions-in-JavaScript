@@ -13,4 +13,12 @@ for (let chickenMonkeyGame = 1; chickenMonkeyGame <= 100; chickenMonkeyGame++){
     } else if (chickenMonkeyGame % 15 === 0) {
         console.log("ChickenMonkey")
     }
+}/*   TAKE A NUMBER PRACTICE  */
+
+let bandNumber = 1; 
+const takeNumber = function (nameOfband) {
+   bandNumber += 1;
+    console.log(bandNumber, nameOfband);
 }
+takeNumber("3 doorsdown");
+takeNumber("troll");
