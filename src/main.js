@@ -15,6 +15,10 @@ for (let chickenMonkeyGame = 1; chickenMonkeyGame <= 100; chickenMonkeyGame++){
     }
 }/*   TAKE A NUMBER PRACTICE  */
 
-const takeNumber = function () {
-    
+let bandNumber = 1; 
+const takeNumber = function (nameOfband) {
+   bandNumber += 1;
+    console.log(bandNumber, nameOfband);
 }
+takeNumber("3 doorsdown");
+takeNumber("troll");
